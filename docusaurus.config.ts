@@ -85,7 +85,6 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -97,46 +96,34 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Precisa de Ajuda?',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Bíblia',
+              href: 'https://www.bible.com/pt',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Recursos',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Bíblia',
+              href: 'https://www.bible.com/pt',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Dúvidas',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Pergunte a Deus',
+              href: 'https://glorify-app.com/pt',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nosso Casamento, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
