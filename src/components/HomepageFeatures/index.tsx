@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Construído para o Trabalho em Equipe 🤝',
-    img:( <img src="/img/jg_mountain.jpg" alt="Josue e Giselle Montanha colrida" style={{ width: '50%', borderRadius: '12px' }} />),
+    img:( <img src="./img/jg_mountain.jpg" alt="Josue e Giselle Montanha colrida" style={{ width: '50%', borderRadius: '12px' }} />),
     description: (
       <>
         Nosso casamento é como uma arquitetura bem feita: papéis claros, objetivos compartilhados e apoio em cada sprint.
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Foco no que Realmente Importa 💡',
-    img: <img src="/img/jg_focus.jpg" alt="Josue e Giselle Montanha colrida" style={{ width: '50%', borderRadius: '12px' }} />,
+    img: <img src="./img/jg_focus.jpg" alt="Josue e Giselle Montanha colrida" style={{ width: '50%', borderRadius: '12px' }} />,
     description: (
       <>
         Priorizamos o que nos aproxima: conexão, paz, metas financeiras e bem-estar emocional.
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Movido a Amor (e React) ❤️⚛️',
-    img: <img src="/img/jg_love.jpg" alt="Josue e Giselle Montanha colrida" style={{ width: '50%', borderRadius: '12px' }} />,
+    img: <img src="./img/jg_love.jpg" alt="Josue e Giselle Montanha colrida" style={{ width: '50%', borderRadius: '12px' }} />,
     description: (
       <>
         Nossa vida roda com React e rotina — mas o verdadeiro motor é o amor, o respeito e os sonhos que construímos juntos.
